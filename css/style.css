@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+body,html,p{margin:0px; padding:0px; font-family: "DM Sans", sans-serif;}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+aside, details, figcaption, figure, ins, summary, small, mark, title, video, footer, header, hgroup, nav, section, article {display:block;}
+.clear{padding:0; margin:0; line-height:0; height:0; font-size:0; clear:both; width:100%; display:block;}
+h1, h2, h3, h4, h5, h6 { padding:0; margin:0; font-weight:normal;}
+html, body {height:100%; width:100%; padding:0; margin:0;}
+body *{box-sizing:border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; font-family: "DM Sans", sans-serif;}
+ul li{list-style:none;}
+input,button{outline:none; border:none;}
+a, a:hover, a:focus{text-decoration:none; outline:none;}
+a:active,a:hover {outline: 0;}
+button{transition:all .5s;}
+:focus{outline:none;}
+img{border:none;}
+
+/********Main Css********/
+
+/* 
+
+font-family: "Playfair", serif;
+font-family: "DM Sans", sans-serif;
+
+*/
+
+
+header{padding:20px 0; position:fixed; top:0px; z-index:9; width:100%; transition:all 0.5s;}
+header .topLogo{transition:all 0.5s;}
+header.scrolled{background:#FFF; padding:8px 0;}
+header.scrolled .topLogo{width:70px; transition:all 0.5s;}
+
+header .topMenu{display:flex; justify-content:end; gap:30px;}
+
+header .topMenu ul{display:flex; align-items:center; justify-content:center; margin:0px; padding:0px;}
+header .topMenu ul li a{color:#000; font-size:16px; padding:12px 20px; display:block;}
+
+header .topMenu ul li a.buttonRed{border-radius:30px; background:#542905; color:#FFF; text-align:center;}
+
+.homeBanner{padding:120px 0 0; background:url(../img/pattern.png) center left #F9F4F0; background-size: auto 100%; position:relative;}
+.homeBanner h2{font-family: "Playfair", serif; font-size:18px; color:#4D4E50; font-style:italic;}
+.homeBanner h1{font-family: "Playfair", serif; font-size:64px; font-weight:700;}
+.homeBanner .bannerIcon{position:absolute; right:0px; top:120px;}
+.homeBanner a{color:#000; text-decoration:underline;}
+.homeBanner .profileLink{display:flex; gap:20px;}
+.homeBanner .profileLink a{background:#FFF; border:1px solid #EAEAEA; height:55px; width:55px; display:flex; align-items:center; justify-content:center; border-radius:100%;}
+
+
+
+.aboutUs{padding:80px 0; background:#542905; color:#FFF; text-align:center;}
+.aboutUs h2{font-size:22px; font-weight:500;}
+.aboutUs p{font-size:16px; font-weight:400; line-height:27px;}
+
+.aboutUs .mySkills{background:#4D2505; border:1px solid #65340C; border-radius:15px; padding:30px; color:#FFF; margin:35px 0 0;}
+.aboutUs .mySkills h3{font-size:19px;}
+.aboutUs .mySkills ul{display:flex; justify-content:center; gap:10px; margin:0px; padding:0px;}
+.aboutUs .mySkills ul li{display:flex; flex-direction:column; background:#FFF; min-width:100px; padding:10px 15px; color:#000; align-items:center; border-radius:12px;}
+.aboutUs .mySkills ul li p{font-family: "Playfair", serif; font-size:18px; font-weight:600;}
+.aboutUs .mySkills ul li img{width:30px; height:30px;}
+
+.educationalWeb{display:grid; grid-template-columns: repeat(2, 1fr); background:#484848; color:#FFF;}
+.educationalWeb img{width:100%;}
+.educationalWeb h3{font-size:70px; font-weight:600;}
+.educationalWeb p{font-size:16px;}
+.educationalWeb .eduText{display:flex; align-items:center; justify-content:center; padding:50px;}
+.educationalWeb .eduText .widthMainten{max-width:650px;}
+
+
+.portFolio{background:#FFFAF9; background:radial-gradient(circle, rgba(255, 250, 249, 1) 0%, rgba(224, 213, 209, 0.5) 100%);}
+.portFolio h2{font-size:70px; font-weight:700;}
+.portFolio p{font-size:18px; font-weight:500;}
+
+
+.flowLinks{display:grid; grid-template-columns: repeat(2, 55% 45%); background:#FFF4FE; color:#000;}
+.flowLinks img{width:100%;}
+.flowLinks h3{font-size:70px; font-weight:600;}
+.flowLinks p{font-size:16px;}
+.flowLinks .eduText{display:flex; align-items:center; justify-content:center; padding:50px;}
+.flowLinks .eduText .widthMainten{max-width:650px;}
+
+.mySelf{padding:100px 0; display:flex; justify-content:center; gap:50px;}
+.mySelf .items{max-width:560px;}
+.mySelf .myTools{border-radius:50px; background:url(../img/pattern2.png) center center #542905; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; position:relative; padding:50px; color:#FFF;}
+.mySelf .myTools img{position:absolute;}
+.mySelf .myTools .panTool{top:30px; left:30px;}
+.mySelf .myTools .imgEffect{top:35px; right:30px;}
+.mySelf .myTools .crop{bottom:40px; left:40px;}
+.mySelf .myTools .photoshop{bottom:30px; right:40px;}
+.mySelf .myTools h3{font-size:40px; font-family: "Playfair", serif;}
+.mySelf .myTools p{font-size:18px;}
+
+.scrollTopBtn{display:none; height:50px; width:50px; position:fixed; bottom:50px; right:50px; background:#000; color:#fff; border:none; border-radius:50%; cursor:pointer; font-size:18px; z-index:999; transition:opacity 0.3s ease;}
+
+.scrollTopBtn.show {
+display: block;
+opacity: 1;
+}
+
+footer{padding:80px 0 100px; background:#F9FAFB;}
+footer h3{color:#4D4E50; font-size:18px; font-style:italic; font-family: "Playfair", serif;}
+footer h1 a{font-size:45px; font-weight:700; font-family: "Playfair", serif; color:#000;}
+footer h1 a:hover{color:#000;}
+footer h2{font-size:29px; font-weight:500;}
+
+
+
+.buttonRed{background:#F63636; font-size:16px; font-weight:600; min-width:120px; color:#FFF; border-radius:10px; padding:10px;}
+
+.bgGradient{background:#FFE5E5;
+background:linear-gradient(90deg, rgba(255, 229, 229, 1) 0%, rgba(245, 255, 254, 1) 27%, rgba(252, 243, 255, 1) 55%, rgba(255, 244, 229, 1) 100%);}
+
+
+
+
+
+@media (max-width:1199px) {
+
+.educationalWeb h3{font-size:50px; font-weight:600;}
+.flowLinks{grid-template-columns:repeat(2, 50% 50%);}
+.mySelf{padding:100px 0 80px; gap:20px;}
+footer{text-align:center; padding:50px 0 60px;}
+.mySelf{padding:60px 0; gap:20px;}
+.mySelf .items{max-width:450px;}
+
+
+}
+
+
+
+@media (max-width:991px) {
+
+    .homeBanner{text-align:center;}
+    .respName{background:#FFF4FE; padding:25px;}
+    .homeBanner .profileLink{justify-content:center;}
+
+    .educationalWeb{grid-template-columns:repeat(1, 1fr);}
+    .educationalWeb .eduText{text-align:center;}
+    .portFolio{text-align:center;}
+    .portFolio p{margin-bottom:20px;}
+
+    .flowLinks{grid-template-columns:repeat(1, 1fr); text-align:center;}
+    .mySelf{flex-direction:column; justify-content:center; align-items:center;}
+    .mySelf .myTools{min-height:450px;}
+    .aboutUs{padding:60px 0;}
+    .aboutUs .mySkills ul{flex-wrap:wrap;}
+    .aboutUs .mySkills ul li{padding:10px;}
+
+
+}
+
+
+
+@media (max-width:767px) {
+
+    header{text-align:center;}
+    header .topMenu{justify-content:center;}
+    .homeBanner{padding:200px 0 0;}
+
+}
+
+
+@media (max-width:575px) {
+
+    .homeBanner h1{font-size:60px;}
+
+}
+
+@media (max-width:480px) {
+
+    header .topMenu ul li a.buttonRed{min-width:100px;}
+    header .topMenu ul li a{padding:10px 15px;}
+    .homeBanner .container-lg{position: relative; z-index: 5;}
+    header .topLogo{width:80px;}
+    header.scrolled .topLogo{display:none;}
+    .homeBanner h1{font-size:45px;}
+    .educationalWeb h3{font-size: 30px;}
+    .portFolio h2{font-size:50px;}
+    .flowLinks h3{font-size:50px;}
+    footer h1{margin:10px 0;}
+    footer h1 a{font-size:30px;}
+    footer h2{font-size:25px;}
+    .scrollTopBtn{bottom:15px; right:15px;}
+
+}
+
+
+
+
+
+
+
+
