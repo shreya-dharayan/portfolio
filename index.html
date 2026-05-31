@@ -1,211 +1,210 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shreya Dharayan</title>
 
-    <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    
-    <title>Shreya Dharayan</title>
-    
-  </head>
-  <body>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link href="css/style.css" rel="stylesheet">
+</head>
 
-    <!-- Header -->
-    <header id="home" class="main-header">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-3 col-lg-3"><img class="img-fluid topLogo" src="img/logo.png" /></div>
-          <div class="col-md-9 col-lg-9">
-            <div class="topMenu">
-              <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact" class="buttonRed">Contact</a></li>
-              </ul>
-            </div>
-          </div>
+<body>
+
+  <div class="progressBar"></div>
+
+  <header class="siteHeader">
+    <a href="#home" class="logo">SD</a>
+
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="img/resume.pdf" target="_blank">Resume</a>
+    </nav>
+  </header>
+
+  <main id="home">
+
+    <section class="hero fadeIn">
+      <div class="heroCopy">
+        <p class="eyebrow">Computer Science · Psychology · Product</p>
+        <div class="heroAccent"></div>
+
+        <h1>Technology, psychology, and product thinking.</h1>
+
+        <p class="heroText">
+          I’m Shreya Dharayan, a Computer Science graduate focused on product, UX, and data-informed digital experiences.
+        </p>
+
+        <div class="heroActions">
+          <a href="#work" class="heroBtn">View Work →</a>
         </div>
       </div>
-    </header>
 
-    <!-- Home Banner -->
-    <section class="homeBanner">
-      <img class="bannerIcon" src="img/banner-icon.png" />
-      <div class="container-lg">
-        <div class="row align-items-center">
-          <div class="col-lg-7 order-2 order-lg-1 respName">
-            <h2>Hello! I'm Shreya Dharayan</h2>
-            <h1>UI/UX Enthusiast</h1>
-            <div class="d-flex justify-content-center justify-content-lg-start gap-3 my-3">
-              <a href="#projects">Show projects</a>
-              <a target="_blank" href="img/resume.pdf">Resume</a>
-            </div>
-            <div class="profileLink">
-              <a href="#"><img src="img/behance.svg" /></a>
-              <a target="_blank" href="https://www.linkedin.com/in/shreya-dharayan-413092245"><img src="img/linkedin.svg" /></a>
-            </div>
-          </div>
-          <div class="col-lg-5 order-1 order-lg-2">
-            <img class="img-fluid" src="img/sherya.png" />
-          </div>
+      <div class="heroVisual">
+        <div class="portraitFrame">
+          <img class="heroPortrait" src="img/headshot.jpg" alt="Shreya Dharayan portrait">
         </div>
       </div>
     </section>
 
-    <!-- About Us Section -->
-    <section id="about" class="aboutUs">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-10 col-xl-8">
-            <h2>About me</h2>
-            <p class="mt-3">Aspiring UI/UX design enthusiast and Computer Science student with a minor in Psychology, leveraging insights into human behavior to better understand what users want. Experienced in front-end development and design tools like Figma and Adobe Photoshop. Skilled in creating user-centered designs through research and usability testing. Proven ability to collaborate across teams and deliver impactful digital experiences.</p>
+    <section id="work" class="workIntro fadeIn">
+      <p class="eyebrow">Selected Work</p>
+      <h2>Selected projects, thoughtfully built.</h2>
+    </section>
+
+    <section class="projectCard fadeIn">
+      <div class="projectInfo">
+        <p class="projectMeta">Full-Stack Development · React · UX</p>
+        <h2>Student Expense Tracker</h2>
+        <p>
+          A full-stack expense management platform designed for students. Built through agile sprint workflows with frontend development, profile management, theme customization, and user experience improvements.
+        </p>
+        <a href="https://trackr-frontend.onrender.com/" target="_blank">View Project →</a>
+      </div>
+
+      <div class="projectImage">
+        <img src="img/expense-tracker.jpg" alt="Student Expense Tracker preview">
+      </div>
+    </section>
+
+    <section class="projectCard fadeIn">
+      <div class="projectInfo">
+        <p class="projectMeta">Psychology · Web Design · Frontend</p>
+        <h2>Bias Brain</h2>
+        <p>
+          An interactive platform focused on cognitive biases and decision-making, combining psychology research, educational content, and modern web design principles.
+        </p>
+        <a href="https://bias-brain.onrender.com/" target="_blank">View Project →</a>
+      </div>
+
+      <div class="projectImage">
+        <img src="img/bias-brain.jpg" alt="Bias Brain preview">
+      </div>
+    </section>
+
+    <section class="projectCard fadeIn">
+      <div class="projectInfo">
+        <p class="projectMeta">UX Design · Wireframing · Design Systems</p>
+        <h2>FlowLinks</h2>
+        <p>
+          Supported the design of a link-management platform through user research, wireframing, interface design, and design system development.
+        </p>
+        <a href="https://www.flowlinks.ai/" target="_blank">View Project →</a>
+      </div>
+
+      <div class="projectImage">
+        <img src="img/flow-links.png" alt="FlowLinks preview">
+      </div>
+    </section>
+
+    <section class="projectCard fadeIn">
+      <div class="projectInfo">
+        <p class="projectMeta">Product Design · Research · Figma</p>
+        <h2>QCanvas</h2>
+        <p>
+          Conducted user research and competitor analysis to inform wireframes, prototypes, final UI, and a cohesive visual design system.
+        </p>
+        <a href="https://qcanvas.ai/" target="_blank">View Project →</a>
+      </div>
+
+      <div class="projectImage">
+        <img src="img/qcanva-img.png" alt="QCanvas preview">
+      </div>
+    </section>
+
+    <section class="additionalWork fadeIn">
+      <p class="eyebrow">Additional Work</p>
+
+      <div class="additionalGrid">
+        <article class="miniProject">
+          <img src="img/cognitive-biases.png" alt="Cognitive Biases preview">
+          <div>
+            <h3>Cognitive Biases</h3>
+            <p>
+              Educational website exploring cognitive biases, decision-making, visual hierarchy, and responsive design.
+            </p>
           </div>
-          <div class="col-xl-9">
-            <div class="mySkills">
-              <h3 class="mb-4">Skillset</h3>
-              <ul>
-                <li>
-                  <img src="img/figma.svg" alt="figma" />
-                  <p>Figma</p>
-                </li>
-                <li>
-                  <img src="img/xd.svg" alt="xd" />
-                  <p>Xd</p>
-                </li>
-                <li>
-                  <img src="img/af-effects.svg" alt="Af effects" />
-                  <p>Illustrator</p>
-                </li>
-                <li>
-                  <img src="img/photoshop.svg" alt="Photoshop" />
-                  <p>Photoshop</p>
-                </li>
-                <li>
-                  <img src="img/html5.svg" alt="HTML5" />
-                  <p>Html5</p>
-                </li>
-                <li>
-                  <img src="img/css3.svg" alt="CSS3" />
-                  <p>Css3</p>
-                </li>
-              </ul>
-            </div>
+        </article>
+
+        <article class="miniProject">
+          <img src="img/my-self.png" alt="Digital Self-Portrait preview">
+          <div>
+            <h3>Digital Self-Portrait Experience</h3>
+            <p>
+              Responsive visual composition combining Photoshop editing, image optimization, and HTML/CSS development.
+            </p>
           </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about fadeIn">
+      <p class="eyebrow">About</p>
+
+      <h2>Building with clarity, intention, and care.</h2>
+
+      <p>
+        As a Computer Science graduate with a Psychology minor, I approach digital products through both technical and behavioral lenses. My work spans frontend development, UX research, product thinking, and data-informed problem solving.
+      </p>
+
+      <div class="expertise">
+        <div>
+          <h3>Product & UX</h3>
+          <p>Figma · User Research · Wireframing · Prototyping</p>
+        </div>
+
+        <div>
+          <h3>Development</h3>
+          <p>React · JavaScript · HTML · CSS · Git</p>
+        </div>
+
+        <div>
+          <h3>Data & Analytics</h3>
+          <p>Python · SQL · Excel · Data Visualization</p>
         </div>
       </div>
     </section>
 
-    <section id="projects" class="educationalWeb">
-      <div class="eduText">
-        <div class="widthMainten">
-          <h3 class="mb-xl-4 mb-xl-5">Educational Web Experience on Cognitive Biases</h3>
-          <p>Developed a multi-page educational website on cognitive biases, leveraging HTML, CSS, and responsive design principles to present structured content and enhance visual communication.</p>
-        </div>
-      </div>
-      <div class="">
-        <img src="img/cognitive-biases.png" />
-      </div>
-    </section>
+  </main>
 
-    <section class="portFolio py-5">
-      <div class="container">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-lg-5">
-            <h2 class="mb-4">QCanvas</h2>
-            <p>Conducted user research and competitor analysis to inform design decisions. Designed wireframes, prototypes, and final UI in Figma, while defining a cohesive design system including colors, typography, and components.</p>
-          </div>
-          <div class="col-lg-6">
-            <img class="img-fluid" src="img/qcanva-img.png" />
-          </div>
-        </div>
-      </div>
-    </section>
+  <footer id="contact" class="fadeIn">
+    <p class="eyebrow">Contact</p>
 
-    <section class="flowLinks">
-      <div class="order-2 order-lg-1">
-        <img src="img/flow-links.png" />
-      </div>
-      <div class="eduText order-1 order-lg-2">
-        <div class="widthMainten">
-          <h3 class="mb-4">Flowlinks</h3>
-          <p>Worked as a junior designer on Flowlinks, gaining hands-on experience in research, wireframing, and UI design. Contributed to building the design system and supported workflow improvements under the guidance of senior team members.</p>
-        </div>
-      </div>
-    </section>
+    <h2>Let’s build something meaningful.</h2>
 
+    <a class="email" href="mailto:shreyadharayan@gmail.com">
+      shreyadharayan@gmail.com
+    </a>
 
-    <section class="mySelf">
-      <div class="items">
-        <img class="img-fluid myCreation" src="img/my-self.png" />
-      </div>
-      <div class="items myTools">
-          <img class="panTool" src="img/pan-tool.png" />
-          <img class="imgEffect" src="img/img-effect.png" />
-          <img class="crop" src="img/crop.png" />
-          <img class="photoshop" src="img/photoshop.png" />
-          <h3>Raster Graphics</h3>
-          <p>Used Adobe Photoshop to cut out and resize a self-portrait, then built a responsive HTML/CSS page with srcset and custom background placement.</p>
-      </div>
-    </section>
+    <div class="footerLinks">
+      <a href="https://www.linkedin.com/in/shreya-dharayan-413092245" target="_blank">LinkedIn</a>
+      <a href="https://github.com/shreya-dharayan" target="_blank">GitHub</a>
+      <a href="img/resume.pdf" target="_blank">Resume</a>
+    </div>
+  </footer>
 
-    <button class="scrollTopBtn">↑</button>
+  <script>
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const progress = (scrollTop / docHeight) * 100;
+      document.querySelector('.progressBar').style.width = progress + '%';
+    });
 
-
-
-    <!-- Footer -->
-    <footer id="contact">
-      <div class="container">
-        <h3>Contact me</h3>
-        <h1><a href="mailto:shreyadharayan@gmail.com">shreyadharayan@gmail.com</a></h1>
-        <h2>+1 (908) 227-9351</h2>
-      </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    
-    <script>
-      window.addEventListener("scroll", function () {
-        const header = document.querySelector(".main-header"); // no id, just class
-
-        if (window.scrollY > 80) {
-          header.classList.add("scrolled");
-        } else {
-          header.classList.remove("scrolled");
+    const observer = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          entry.target.classList.add('show');
         }
       });
-    </script>
+    }, { threshold: 0.12 });
 
-    
-    <script>
-      const scrollBtn = document.querySelector(".scrollTopBtn");
+    document.querySelectorAll('.fadeIn').forEach(el=>{
+      observer.observe(el);
+    });
+  </script>
 
-      // Show/hide button on scroll
-      window.addEventListener("scroll", () => {
-        if (window.scrollY > 200) {
-          scrollBtn.classList.add("show");
-        } else {
-          scrollBtn.classList.remove("show");
-        }
-      });
-
-      // Scroll to top smoothly
-      scrollBtn.addEventListener("click", () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      });
-    </script>
-
-    
-
-
-
-
-  </body>
+</body>
 </html>
